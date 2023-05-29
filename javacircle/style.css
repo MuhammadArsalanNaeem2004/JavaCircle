@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-div {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .heading{
+      font-size: 2rem;
+      margin: 8% auto;
+  }
+  
+  .reset {
+    background-color: rgb(125, 197, 187);
+    height: 200px;
+    margin: 5% auto;
+    border: 5px solid rgb(77, 77, 77);
+  }
+  
+  .circle {
+    background-color: rgba(166, 112, 236, 0.363);
+    margin: 5% auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+  }
+  
+  .square {
+    background-color: rgb(10, 114, 83);
+    margin: 5% auto;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+  }
+  
+  .rectangle {
+    background-color: rgb(94, 126, 168);
+    margin: 5% auto;
+    width: 400px;
+    height: 100px;
+    border: 5px solid black;
+  }
+  
+  .triangle {
+    margin: 5% auto;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(96, 167, 38);
+  }
+  
+  .btn-group button {
+    border: 2px solid #000000;
+    background: none;
+    border-radius: 10px;
+    color: #02415a;
+    margin: 8px 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+  
+  .btn-group button:hover {
+    background-color: #8589a5;
+    color: white;
+  }
+  
+  .btn-group button:active {
+    background-color: #0077b6;
+    color: white;
+    transition: 0s;
+  }
